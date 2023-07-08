@@ -114,7 +114,7 @@ RUN set -ex; \
 		echo 'daemonize = no'; \
 		echo; \
 		echo '[www]'; \
-		echo 'listen = [::]:9000'; \
+		echo 'listen = [::]:8000'; \
 	} | tee php-fpm.d/zz-docker.conf
 
 # Disable cross build
